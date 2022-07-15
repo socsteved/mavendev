@@ -8,3 +8,8 @@ padding-right: 80px;
 .nav-item{
   padding-left: 15px;
 }
+
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
