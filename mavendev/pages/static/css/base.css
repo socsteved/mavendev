@@ -3,5 +3,8 @@ h1 {
 }
 .navbar-brand{
 padding-left: 20px;
-padding-right: 100px;
+padding-right: 95px;
+}
+.nav-item{
+  padding-left: 5px;
 }
