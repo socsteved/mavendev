@@ -4,13 +4,17 @@
 	<link rel="stylesheet" href="{% static 'css/base.css' %}">
 </head>
 <header>
-	<ul>
-		<li><a href="{% url 'home' %}">Home</a></li>
-		<li><a href="{% url 'cx' %}">Customer Experience</a></li>
-		<li><a href="{% url 'dq' %}">Data Quality</a></li>
-		<li><a href="{% url 'send' %}">MavenSend</a></li>
-		<<li><a href="{% url 'indsol' %}">Industry Solutions</a></li>
-</ul>
+	<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+		<ul>
+				<li><a href="{% url 'home' %}">Home</a></li>
+				<li><a href="{% url 'cx' %}">Customer Experience</a></li>
+				<li><a href="{% url 'dq' %}">Data Quality</a></li>
+				<li><a href="{% url 'send' %}">MavenSend</a></li>
+				<<li><a href="{% url 'indsol' %}">Industry Solutions</a></li>
+		</ul>
+  </div>
+</nav>
 </header>
 
 {% block content %}
